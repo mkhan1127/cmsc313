@@ -22,7 +22,8 @@ gcc -Wall -g matrix.c -o matrix_c
 
 Testing Methodology:
 Both programs implement the same equation to test for errors
-    D = A + (3 * B) * C^T
+    D = A + (3 * B) * C^T      
     where
-    A = [6 4] ; B = [1 2 3] ; C = [2 4 6]
-        [8 3] ;     [4 5 6] ;     [1 3 5]
+    A = [6 4] [8 3]
+    B = [1 2 3] [4 5 6]
+    C = [2 4 6] [1 3 5]
