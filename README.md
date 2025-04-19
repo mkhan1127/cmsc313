@@ -18,7 +18,7 @@ To compile and run matrix.cpp
 g++ -Wall -g matrix.cpp -o matrix_cpp
 ./matrix_cpp
 To compile and run matrix.c
-gcc -Wall -g matrix.c -o matrix_c
+gcc -Wall -g -std=c99 matrix.c -o matrix_c
 
 Testing Methodology:
 Both programs implement the same equation to test for errors
